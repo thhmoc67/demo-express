@@ -4,6 +4,7 @@ phases:
   install:
     commands:
       # Install dependencies needed for running tests
+      - git checkout staging 
       - npm install
 
       # Upgrade AWS CLI to the latest version
